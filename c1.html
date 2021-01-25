@@ -1,0 +1,888 @@
+<html>
+<head>
+	<style>
+     .head{
+     	font-size: 50px;
+         text-align: center;
+         font-family: COPPERPLATE;
+         color: white;
+         background-color: #00994d;
+         padding-top: 40px;
+         padding-bottom: 40px;
+     }
+     
+     .cont{
+     	font-size: 25px;
+     	margin-top: 30px;
+        font-family: Courier New;
+        margin-left: 25px;
+
+     }
+     input[type='radio']{
+       width:1.2em;
+       height:1.2em;
+        color: red;
+        margin-top: 20px;
+        margin-left: 35px;
+
+    }
+.he{
+	font-size: 20px;
+     	margin-top: 30px;
+        font-family: Courier New;
+}
+
+.bt{
+	text-align: center;
+	
+}
+.hh{
+	background-color:#0086b3 ; 
+	color: white;
+	font-size: 25px; 
+	border-radius:10px;
+	border:none;
+	outline:none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+    #pk{
+    	color: #00994d;
+    	background-color: white;
+    	font-size: 20px;
+    	border-color: #00994d;
+    	outline: none;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	border-radius: 10px;
+    }
+	</style>
+</head>
+<body>
+	<div class="head">
+		CSS
+	</div>
+<div class="he">
+	<span style="color: #00994d;">One Mark:</span>
+</div>
+<div class="cont">
+
+	<span style="font-weight: bold;color: #00994d;">1.If we want define style for an unique element, then which css selector will we use ?</span><br>
+	<input type="radio" name="r1"  value="a" id="a1">
+	<label for="a1">Id</label><br>
+	<input type="radio" name="r1"  value="b" id="a2">
+	<label for="a2">text</label><br>
+	<input type="radio" name="r1"  value="c" id="a3">
+	<label for="a3">class</label><br>
+	<input type="radio" name="r1"  value="d" id="a4">
+	<label for="a4">name</label><br><br>
+
+	<span style="font-weight: bold;color: #00994d;">2.If we don't want to allow a floating div to the left side of an element, which css property will we use ?</span><br>
+	<input type="radio" name="r2"  value="a" id="a5">
+	<label for="a1">margin</label><br>
+	<input type="radio" name="r2"  value="b" id="a6">
+	<label for="a2">clear</label><br>
+	<input type="radio" name="r2"  value="c" id="a7">
+	<label for="a3">float</label><br>
+	<input type="radio" name="r2"  value="d" id="a8">
+	<label for="a4">padding</label><br><br>
+	
+
+    <span style="font-weight: bold;color: #00994d;">3.Suppose we want to arragnge five nos. of DIVs so that DIV4 is placed above DIV1. Now, which css property will we use to control the order of stack?</span><br>
+	<input type="radio" name="r3"  value="a" id="a9">
+	<label for="a1">d-index</label><br>
+	<input type="radio" name="r3"  value="b" id="a10">
+	<label for="a2">s-index</label><br>
+	<input type="radio" name="r3"  value="c" id="a11">
+	<label for="a3">x-index</label><br>
+	<input type="radio" name="r3"  value="d" id="a12">
+	<label for="a4">z-index</label><br><br>
+
+
+    <span style="font-weight: bold;color: #00994d;">4.If we want to wrap a block of text around an image, which css property will we use ?</span><br>
+	<input type="radio" name="r4"  value="a" id="a13">
+	<label for="a1">wrap</label><br>
+	<input type="radio" name="r4"  value="b" id="a14">
+	<label for="a2">push</label><br>
+	<input type="radio" name="r4"  value="c" id="a15">
+	<label for="a3">float</label><br>
+	<input type="radio" name="r4"  value="d" id="a16">
+	<label for="a4">align</label><br><br>
+
+
+    <span style="font-weight: bold;color: #00994d;">5.If we want to show an Arrow as cursor, then which value we will use ?</span><br>
+	<input type="radio" name="r5"  value="a" id="a17">
+	<label for="a1">pointer</label><br>
+	<input type="radio" name="r5"  value="b" id="a18">
+	<label for="a2">default</label><br>
+	<input type="radio" name="r5"  value="c" id="a19">
+	<label for="a3">arrow</label><br>
+	<input type="radio" name="r5"  value="d" id="a20">
+	<label for="a4">arr</label><br><br>
+
+    
+     <span style="font-weight: bold;color: #00994d;">6.If we want to use a nice looking green dotted border around an image, which css property will we use?</span><br>
+	<input type="radio" name="r6"  value="a" id="a21">
+	<label for="a1">border-color</label><br>
+	<input type="radio" name="r6"  value="b" id="a22">
+	<label for="a2">border-decoration</label><br>
+	<input type="radio" name="r6"  value="c" id="a23">
+	<label for="a3">border-style</label><br>
+	<input type="radio" name="r6"  value="d" id="a24">
+	<label for="a4">border-line</label><br><br>
+
+	<span style="font-weight: bold;color: #00994d;">7.Which of the following properties will we use to display border around a cell without any content ?</span><br>
+	<input type="radio" name="r7"  value="a" id="a25">
+	<label for="a1">empty-cell</label><br>
+	<input type="radio" name="r7"  value="b" id="a26">
+	<label for="a2">blank-cell</label><br>
+	<input type="radio" name="r7"  value="c" id="a27">
+	<label for="a3">noncontent-cell</label><br>
+	<input type="radio" name="r7"  value="d" id="a28">
+	<label for="a4">void-cell</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">8.What should be the table width, so that the width of a table adjust to the current width of the browser window?</span><br>
+	<input type="radio" name="r8"  value="a" id="a29">
+	<label for="a1">640 pixels</label><br>
+	<input type="radio" name="r8"  value="b" id="a30">
+	<label for="a2">100%</label><br>
+	<input type="radio" name="r8"  value="c" id="a31">
+	<label for="a3">full-screen</label><br>
+	<input type="radio" name="r8"  value="d" id="a32">
+	<label for="a4">1024 px</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">9.Which element is used in the &lt;HEAD&gt; section on an HTML / XHTMLpage, if we want to use an external style sheet file to decorate the page ?</span><br>
+	<input type="radio" name="r9"  value="a" id="a33">
+	<label for="a1">&lt;src&gt;</label><br>
+	<input type="radio" name="r9"  value="b" id="a34">
+	<label for="a2">&lt;link&gt;</label><br>
+	<input type="radio" name="r9"  value="c" id="a35">
+	<label for="a3">&lt;style&gt;</label><br>
+	<input type="radio" name="r9"  value="d" id="a36">
+	<label for="a4">&lt;css&gt;</label><br><br>
+
+	<span style="font-weight: bold;color: #00994d;">10.Which attribute can be added to many HTML / XHTML elements to identify them as a member of a specific group ?</span><br>
+	<input type="radio" name="r10"  value="a" id="a37">
+	<label for="a1">Id</label><br>
+	<input type="radio" name="r10"  value="b" id="a38">
+	<label for="a2">div</label><br>
+	<input type="radio" name="r10"  value="c" id="a39">
+	<label for="a3">class</label><br>
+	<input type="radio" name="r10"  value="d" id="a40">
+	<label for="a4">span</label><br>
+
+
+</div>
+<div class="he">
+	<span style="color: #00994d;">Two Mark:</span>
+</div>
+<div class="cont">
+<span style="font-weight: bold;color: #00994d;">11.When we write &lt;img src="img.png"&gt;, what "img.png" inside double quote implies?</span><br>
+	<input type="radio" name="r11"  value="a" id="a41">
+	<label for="a1">element</label><br>
+	<input type="radio" name="r11"  value="b" id="a42">
+	<label for="a2">attribute</label><br>
+	<input type="radio" name="r11"  value="c" id="a43">
+	<label for="a3">value</label><br>
+	<input type="radio" name="r11"  value="d" id="a44">
+	<label for="a4">operator</label><br><br>
+
+	<span style="font-weight: bold;color: #00994d;">12.How can we write comment along with CSS code ?</span><br>
+	<input type="radio" name="r12"  value="a" id="a45">
+	<label for="a1">/* a comment */</label><br>
+	<input type="radio" name="r12"  value="b" id="a46">
+	<label for="a2">// a comment //</label><br>
+	<input type="radio" name="r12"  value="c" id="a47">
+	<label for="a3">/ a comment /</label><br>
+	<input type="radio" name="r12"  value="d" id="a48">
+	<label for="a4"><' a comment'></label><br><br>
+
+	<span style="font-weight: bold;color: #00994d;">13.Which css property you will use if you want to add some margin between a DIV's border and its inner text ?</span><br>
+	<input type="radio" name="r13"  value="a" id="a49">
+	<label for="a1">spacing</label><br>
+	<input type="radio" name="r13"  value="b" id="a50">
+	<label for="a2">margin</label><br>
+	<input type="radio" name="r13"  value="c" id="a51">
+	<label for="a3">padding</label><br>
+	<input type="radio" name="r13"  value="d" id="a52">
+	<label for="a4">inner-margin</label><br><br>
+
+    
+    <span style="font-weight: bold;color: #00994d;">14.The default value of "position" attribute is _________.</span><br>
+	<input type="radio" name="r14"  value="a" id="a53">
+	<label for="a1">fixed</label><br>
+	<input type="radio" name="r14"  value="b" id="a54">
+	<label for="a2">absolute</label><br>
+	<input type="radio" name="r14"  value="c" id="a55">
+	<label for="a3">inherit</label><br>
+	<input type="radio" name="r14"  value="d" id="a56">
+	<label for="a4">relative</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">15.How will you make all paragraph elements 'RED' in color ?</span><br>
+	<input type="radio" name="r15"  value="a" id="a57">
+	<label for="a1">p.all {color: red;}</label><br>
+	<input type="radio" name="r15"  value="b" id="a58">
+	<label for="a2">p.all {color: #990000;}</label><br>
+	<input type="radio" name="r15"  value="c" id="a59">
+	<label for="a3">all.p {color: #998877;}</label><br>
+	<input type="radio" name="r15"  value="d" id="a60">
+	<label for="a4">p {color: red;}</label><br><br>
+
+	<span style="font-weight: bold;color: #00994d;">16.By default Hyperlinks are displayed with an underline. How do you remove the underline from all hyperlinks by using CSS code ?</span><br>
+	<input type="radio" name="r16"  value="a" id="a61">
+	<label for="a1">a {text: no-underline;}</label><br>
+	<input type="radio" name="r16"  value="b" id="a62">
+	<label for="a2">a {text-decoration:none;}</label><br>
+	<input type="radio" name="r16"  value="c" id="a63">
+	<label for="a3">a {text-style: no-underline;}</label><br>
+	<input type="radio" name="r16"  value="d" id="a64">
+	<label for="a4">a {text-decoration: no-underline;}</label><br><br>
+
+
+
+    <span style="font-weight: bold;color: #00994d;">17.Which of the following selector selects the elements that are checked?</span><br>
+	<input type="radio" name="r17"  value="a" id="a65">
+	<label for="a1">E ~ F</label><br>
+	<input type="radio" name="r17"  value="b" id="a66">
+	<label for="a2">::after</label><br>
+	<input type="radio" name="r17"  value="c" id="a67">
+	<label for="a3">:checked</label><br>
+	<input type="radio" name="r17"  value="d" id="a68">
+	<label for="a4">none of the mentioned</label><br><br>
+
+
+    
+
+    <span style="font-weight: bold;color: #00994d;">18.Which of the following selector selects the elements that are the default among a set of similar elements?</span><br>
+	<input type="radio" name="r18"  value="a" id="a69">
+	<label for="a1">:default</label><br>
+	<input type="radio" name="r18"  value="b" id="a70">
+	<label for="a2">:%</label><br>
+	<input type="radio" name="r18"  value="c" id="a71">
+	<label for="a3">:disabled</label><br>
+	<input type="radio" name="r18"  value="d" id="a72">
+	<label for="a4">none of the mentioned</label><br><br>
+
+
+    <span style="font-weight: bold;color: #00994d;">19.Which of the following selector selects an element that has no children?</span><br>
+	<input type="radio" name="r19"  value="a" id="a73">
+	<label for="a1">:empty</label><br>
+	<input type="radio" name="r19"  value="b" id="a74">
+	<label for="a1">:nochild</label><br>
+	<input type="radio" name="r19"  value="c" id="a75">
+	<label for="a3">:inheritance</label><br>
+	<input type="radio" name="r19"  value="d" id="a76">
+	<label for="a4">:no-child</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">20.Which of the following selector selects the element that is the first child of its parent that is of its type?</span><br>
+	<input type="radio" name="r20"  value="a" id="a77">
+	<label for="a1">:first-of-type</label><br>
+	<input type="radio" name="r20"  value="b" id="a78">
+	<label for="a1">:last-child</label><br>
+	<input type="radio" name="r20"  value="c" id="a79">
+	<label for="a3">::first-line</label><br>
+	<input type="radio" name="r20"  value="d" id="a80">
+	<label for="a4">::first-letter</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">21.Which of the following selector selects elements that do not match the selector s?</span><br>
+	<input type="radio" name="r21"  value="a" id="a81">
+	<label for="a1">!(s)</label><br>
+	<input type="radio" name="r21"  value="b" id="a82">
+	<label for="a1">:nth-child(s)</label><br>
+	<input type="radio" name="r21"  value="c" id="a83">
+	<label for="a3">:not(s)</label><br>
+	<input type="radio" name="r21"  value="d" id="a84">
+	<label for="a4">none of the mentioned</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">22.Which of the following selector selects an element if it’s the only child of its parent?</span><br>
+	<input type="radio" name="r22"  value="a" id="a85">
+	<label for="a1">:root</label><br>
+	<input type="radio" name="r22"  value="b" id="a86">
+	<label for="a1">:nth-oftype(n)</label><br>
+	<input type="radio" name="r22"  value="c" id="a87">
+	<label for="a3">:only-child</label><br>
+	<input type="radio" name="r22"  value="d" id="a88">
+	<label for="a4">none of the mentioned</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">23.Which of the following selector selects the element that is the target of a referring URI?</span><br>
+	<input type="radio" name="r23"  value="a" id="a89">
+	<label for="a1">:target</label><br>
+	<input type="radio" name="r23"  value="b" id="a90">
+	<label for="a1">:selection</label><br>
+	<input type="radio" name="r23"  value="c" id="a91">
+	<label for="a3">::selection</label><br>
+	<input type="radio" name="r23"  value="d" id="a92">
+	<label for="a4">:URL</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">24.Which of the following selector applies styles to elements that are valid per HTML5 validations set either with the pattern or type
+attributes?</span><br>
+	<input type="radio" name="r24"  value="a" id="a93">
+	<label for="a1">:valid</label><br>
+	<input type="radio" name="r24"  value="b" id="a94">
+	<label for="a1">:required</label><br>
+	<input type="radio" name="r24"  value="c" id="a95">
+	<label for="a3">:optional</label><br>
+	<input type="radio" name="r24"  value="d" id="a96">
+	<label for="a4">:invalid</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">25.In css, “color:red” can be called as _____________</span><br>
+	<input type="radio" name="r25"  value="a" id="a97">
+	<label for="a1">Selector</label><br>
+	<input type="radio" name="r25"  value="b" id="a98">
+	<label for="a1">Rule</label><br>
+	<input type="radio" name="r25"  value="c" id="a99">
+	<label for="a3">Declaration</label><br>
+	<input type="radio" name="r25"  value="d" id="a100">
+	<label for="a4">Value</label><br><br>
+
+
+</div>
+
+
+<div class="he">
+	<span style="color: #00994d;">Three Mark:</span>
+</div>
+
+
+<div class="cont">
+
+<span style="font-weight: bold;color: #00994d;">26.Which of the following element is used by the filter property to blur the images?</span><br>
+	<input type="radio" name="r26"  value="a" id="a101">
+	<label for="a1">opaque()</label><br>
+	<input type="radio" name="r26"  value="b" id="a102">
+	<label for="a1">scatter()</label><br>
+	<input type="radio" name="r26"  value="c" id="a103">
+	<label for="a3">blur()</label><br>
+	<input type="radio" name="r26"  value="d" id="a104">
+	<label for="a4">all of the mentioned</label><br><br>
+
+
+
+<span style="font-weight: bold;color: #00994d;">27.Which of the following function adjust the brightness of an element’s color, for use by the filter property?</span><br>
+	<input type="radio" name="r27"  value="a" id="a105">
+	<label for="a1">contrast()</label><br>
+	<input type="radio" name="r27"  value="b" id="a106">
+	<label for="a1">dark()</label><br>
+	<input type="radio" name="r27"  value="c" id="a107">
+	<label for="a3">light()</label><br>
+	<input type="radio" name="r27"  value="d" id="a108">
+	<label for="a4">brightness()</label><br><br>
+
+
+<span style="font-weight: bold;color: #00994d;">28.Which of the following function with filter property to create your own sophisticated effects on DOM elements?</span><br>
+	<input type="radio" name="r28"  value="a" id="a109">
+	<label for="a1">create()</label><br>
+	<input type="radio" name="r28"  value="b" id="a110">
+	<label for="a1">DOM()</label><br>
+	<input type="radio" name="r28"  value="c" id="a111">
+	<label for="a3">custom()</label><br>
+	<input type="radio" name="r28"  value="d" id="a112">
+	<label for="a4">none of the mentioned</label><br><br>
+
+
+	 <span style="font-weight: bold;color: #00994d;">29.Which of the following function converts an element’s color to a shade of gray, for use by the filter property?</span><br>
+	<input type="radio" name="r29"  value="a" id="a113">
+	<label for="a1">shade()</label><br>
+	<input type="radio" name="r29"  value="b" id="a114">
+	<label for="a1">grayscale()</label><br>
+	<input type="radio" name="r29"  value="c" id="a115">
+	<label for="a3">black()</label><br>
+	<input type="radio" name="r29"  value="d" id="a116">
+	<label for="a4">brightness()</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">30.Which of the following function flips an element’s colors, for use by the filter property?</span><br>
+	<input type="radio" name="r30"  value="a" id="a117">
+	<label for="a1">image()</label><br>
+	<input type="radio" name="r30"  value="b" id="a118">
+	<label for="a1">flip()</label><br>
+	<input type="radio" name="r30"  value="c" id="a119">
+	<label for="a3">invert()</label><br>
+	<input type="radio" name="r30"  value="d" id="a120">
+	<label for="a4">contrast()</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">31.Which of the following function defines a linear gradient as a CSS image?</span><br>
+	<input type="radio" name="r31"  value="a" id="a121">
+	<label for="a1">grayscale()</label><br>
+	<input type="radio" name="r31"  value="b" id="a122">
+	<label for="a1">gradient()</label><br>
+	<input type="radio" name="r31"  value="c" id="a123">
+	<label for="a3">image()</label><br>
+	<input type="radio" name="r31"  value="d" id="a124">
+	<label for="a4">linear-gradient()</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">32.Which of the following function two dimensional transformation in matrix format?</span><br>
+	<input type="radio" name="r32"  value="a" id="a125">
+	<label for="a1">matrix()</label><br>
+	<input type="radio" name="r32"  value="b" id="a126">
+	<label for="a1">matrix2d()</label><br>
+	<input type="radio" name="r32"  value="c" id="a127">
+	<label for="a3">matrix3d()</label><br>
+	<input type="radio" name="r32"  value="d" id="a128">
+	<label for="a4">perspective</label><br><br>
+
+
+
+<span style="font-weight: bold;color: #00994d;">33.Which of the following is not a appropriate value for font-variant property?</span><br>
+	<input type="radio" name="r33"  value="a" id="a129">
+	<label for="a1">inherit</label><br>
+	<input type="radio" name="r33"  value="b" id="a130">
+	<label for="a1">default</label><br>
+	<input type="radio" name="r33"  value="c" id="a131">
+	<label for="a3">large-caps</label><br>
+	<input type="radio" name="r33"  value="d" id="a132">
+	<label for="a4">small-caps</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">34.Which of the following property adjusts the font-size of the fallback fonts defined with font-family, so that the x-height is the same no matter what font is used?</span><br>
+	<input type="radio" name="r34"  value="a" id="a133">
+	<label for="a1">default</label><br>
+	<input type="radio" name="r34"  value="b" id="a134">
+	<label for="a1">font-size-fallback</label><br>
+	<input type="radio" name="r34"  value="c" id="a135">
+	<label for="a3">font-adjust</label><br>
+	<input type="radio" name="r34"  value="d" id="a136">
+	<label for="a4">font-size-adjust</label><br><br>
+
+
+     <span style="font-weight: bold;color: #00994d;">35.Which of the following Allows you to expand or condense the widths for a normal, condensed, or expanded font face?</span><br>
+	<input type="radio" name="r35"  value="a" id="a137">
+	<label for="a1">font-style</label><br>
+	<input type="radio" name="r35"  value="b" id="a138">
+	<label for="a1">font-stretch</label><br>
+	<input type="radio" name="r35"  value="c" id="a139">
+	<label for="a3">font-expand</label><br>
+	<input type="radio" name="r35"  value="d" id="a140">
+	<label for="a4">none of the mentioned</label><br><br>
+
+
+	<span style="font-weight: bold;color: #00994d;">36.Which of the following font-size-adjust is value used in calculating the size of the fallback fonts?</span><br>
+	<input type="radio" name="r36"  value="a" id="a141">
+	<label for="a1">auto</label><br>
+	<input type="radio" name="r36"  value="b" id="a142">
+	<label for="a1">number</label><br>
+	<input type="radio" name="r36"  value="c" id="a143">
+	<label for="a3">count</label><br>
+	<input type="radio" name="r36"  value="d" id="a144">
+	<label for="a4">none</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">37.Which of the following is the CSS Extension Prefixes for Webkit?</span><br>
+	<input type="radio" name="r37"  value="a" id="a145">
+	<label for="a1">-webkit</label><br>
+	<input type="radio" name="r37"  value="b" id="a146">
+	<label for="a1">-o-</label><br>
+	<input type="radio" name="r37"  value="c" id="a147">
+	<label for="a3">-web</label><br>
+	<input type="radio" name="r37"  value="d" id="a148">
+	<label for="a4">-chrome</label><br><br>
+
+
+
+    <span style="font-weight: bold;color: #00994d;">38.Which of the following CSS property is used to give a line over the text?</span><br>
+	<input type="radio" name="r38"  value="a" id="a149">
+	<label for="a1">text-decoration: underline</label><br>
+	<input type="radio" name="r38"  value="b" id="a150">
+	<label for="a1">text-decoration: overline</label><br>
+	<input type="radio" name="r38"  value="c" id="a151">
+	<label for="a3">text-decoration: line-through</label><br>
+	<input type="radio" name="r38"  value="d" id="a152">
+	<label for="a4">text-decoration: none</label><br><br>
+
+
+
+    <span style="font-weight: bold;color: #00994d;">39.Which of the following is the correct way to applying style to a document?</span><br>
+	<input type="radio" name="r39"  value="a" id="a153">
+	<label for="a1">Use an external style sheet, either by importing it or by linking to it</label><br>
+	<input type="radio" name="r39"  value="b" id="a154">
+	<label for="a1">Directly embed a document-wide style in the head element of the document</label><br>
+	<input type="radio" name="r39"  value="c" id="a155">
+	<label for="a3">Set an inline style rule using the style attribute directly on an element</label><br>
+	<input type="radio" name="r39"  value="d" id="a156">
+	<label for="a4">All of the mentioned</label><br><br>
+
+
+
+
+    <span style="font-weight: bold;color: #00994d;">40.What does screen media type is used for?</span><br>
+	<input type="radio" name="r40"  value="a" id="a157">
+	<label for="a1">For use with all devices</label><br>
+	<input type="radio" name="r40"  value="b" id="a158">
+	<label for="a1">For use with handheld devices</label><br>
+	<input type="radio" name="r40"  value="c" id="a159">
+	<label for="a3">For use with computer screens</label><br>
+	<input type="radio" name="r40"  value="d" id="a160">
+	<label for="a4">For use with television-type devices</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">41.Which of the following measurement defines a measurement relative to a font’s x-height?</span><br>
+	<input type="radio" name="r41"  value="a" id="a161">
+	<label for="a1">ex</label><br>
+	<input type="radio" name="r41"  value="b" id="a162">
+	<label for="a1">em</label><br>
+	<input type="radio" name="r41"  value="c" id="a163">
+	<label for="a3">pt</label><br>
+	<input type="radio" name="r41"  value="d" id="a164">
+	<label for="a4">px</label><br><br>
+
+
+
+
+
+	<span style="font-weight: bold;color: #00994d;">42.Which of the following property defines labels for a list of items?</span><br>
+	<input type="radio" name="r42"  value="a" id="a165">
+	<label for="a1">list-style-type</label><br>
+	<input type="radio" name="r42"  value="b" id="a166">
+	<label for="a1">list-style-image</label><br>
+	<input type="radio" name="r42"  value="c" id="a167">
+	<label for="a3">list-style</label><br>
+	<input type="radio" name="r42"  value="d" id="a168">
+	<label for="a4">list</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">43.Which of the following CSS3 Color Feature can be used as a macro for whatever the current color is?</span><br>
+	<input type="radio" name="r43"  value="a" id="a169">
+	<label for="a1">CurrentColor keyword</label><br>
+	<input type="radio" name="r43"  value="b" id="a170">
+	<label for="a1">HSLa Color</label><br>
+	<input type="radio" name="r43"  value="c" id="a171">
+	<label for="a3">HSL Color</label><br>
+	<input type="radio" name="r43"  value="d" id="a172">
+	<label for="a4">RGB Color</label><br><br>
+
+
+
+	<span style="font-weight: bold;color: #00994d;">44.Which of the following Color Format is a CSS’s six-digit hexadecimal format is the same as color defined in (X)HTML?</span><br>
+	<input type="radio" name="r44"  value="a" id="a173">
+	<label for="a1">6-Hex Color</label><br>
+	<input type="radio" name="r44"  value="b" id="a174">
+	<label for="a1">3-Hex Color</label><br>
+	<input type="radio" name="r44"  value="c" id="a175">
+	<label for="a3">RGBS</label><br>
+	<input type="radio" name="r44"  value="d" id="a176">
+	<label for="a4">RGBa</label><br><br>
+
+
+
+    <span style="font-weight: bold;color: #00994d;">45.Which of the following Color Format is a CSS2 introduced named color keywords which allows Web page colors to be matched to an operating system’s color use?</span><br>
+	<input type="radio" name="r45"  value="a" id="a177">
+	<label for="a1">HSLa Color</label><br>
+	<input type="radio" name="r45"  value="b" id="a178">
+	<label for="a1">Commonly defined named colors</label><br>
+	<input type="radio" name="r45"  value="c" id="a179">
+	<label for="a3">System Color Names</label><br>
+	<input type="radio" name="r45"  value="d" id="a180">
+	<label for="a4">Specificationdefined named colors</label><br><br><br><br><br>
+
+
+
+
+</div>
+
+<div class="bt">
+	<span style="color:#00994d;font-size: 25px;">Enter Ph:No&nbsp;&nbsp;</span><input type="text" id="pk">&nbsp;&nbsp;
+	<input type="button" value="Submit Quiz" onclick="ope()" class="hh">
+	<br><br><br><br>
+</div>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-storage.js"></script> 
+
+<script id="MainScript">
+   var firebaseConfig = {
+    apiKey: "AIzaSyAJUomV0JYwYd-WqwJZISdsYmdDDB2g7aY",
+    authDomain: "arched-jetty-284204.firebaseapp.com",
+    databaseURL: "https://arched-jetty-284204-default-rtdb.firebaseio.com",
+    projectId: "arched-jetty-284204",
+    storageBucket: "arched-jetty-284204.appspot.com",
+    messagingSenderId: "881132111529",
+    appId: "1:881132111529:web:51590f47a060811f834bb8",
+    measurementId: "G-P7B1424R7Z"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<script>
+
+function ope(){
+	var count=0;
+
+if(document.getElementById('a1').checked == true){
+	count=count+1;
+}
+
+if(document.getElementById("a6").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a12").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a15").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a18").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a23").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a25").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a30").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a34").checked==true){
+	count=count+1;
+}
+if(document.getElementById("a39").checked==true){
+	count=count+1;
+}
+
+if(document.getElementById("a43").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a45").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a51").checked==true){
+	count=count+2;
+}
+
+if(document.getElementById("a56").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a60").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a62").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a67").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a69").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a73").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a77").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a83").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a87").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a89").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a93").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a99").checked==true){
+	count=count+2;
+}
+if(document.getElementById("a103").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a108").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a111").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a114").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a119").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a124").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a125").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a131").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a136").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a140").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a142").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a145").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a150").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a156").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a159").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a161").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a165").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a169").checked==true){
+	count=count+3;
+}
+
+if(document.getElementById("a173").checked==true){
+	count=count+3;
+}
+if(document.getElementById("a179").checked==true){
+	count=count+3;
+}
+
+
+var x=document.getElementById("pk").value;
+firebase.database().ref(x).update({
+	"1CSS":"CSS:"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+`${count}`+"&nbsp;"+"Mark"
+});
+alert("Submitted Successfully");
+window.open("index.html");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
